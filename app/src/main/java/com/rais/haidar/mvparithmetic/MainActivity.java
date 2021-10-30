@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity implements LoginView {
         //when error
     }
 
-    // Hello
+    
     @Override
     public void onSuccess(String muncul) {
         txtHasil.setText(muncul);
