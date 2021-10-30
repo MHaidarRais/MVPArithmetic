@@ -10,7 +10,7 @@ import com.rais.haidar.mvparithmetic.View.LoginView;
 public class AritmethicPresenter implements BasePresenter<LoginView> {
 
     LoginView loginView;
-
+//tolong berikan commend beserta nim ya di setiap prosedur
     public void tambah(String bil1, String bil2){
 
         Double bilangan1 = Double.parseDouble(bil1);
