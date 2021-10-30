@@ -87,6 +87,7 @@ public class MainActivity extends AppCompatActivity implements LoginView {
     @Override
     public void onSuccess(String muncul) {
         txtHasil.setText(muncul);
+        //when success
     }
 
 }
