@@ -83,6 +83,7 @@ public class MainActivity extends AppCompatActivity implements LoginView {
     @Override
     public void onError(String msg) {
         //when error
+        //ketika error
     }
 
     
