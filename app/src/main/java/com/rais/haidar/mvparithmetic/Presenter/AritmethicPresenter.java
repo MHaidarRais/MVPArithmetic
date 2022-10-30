@@ -12,7 +12,7 @@ public class AritmethicPresenter implements BasePresenter<LoginView> {
     LoginView loginView;
 //tolong berikan commend beserta nim ya di setiap prosedur
     public void tambah(String bil1, String bil2){
-
+        // mengubah string menjadi double
         Double bilangan1 = Double.parseDouble(bil1);
         Double bilangan2 = Double.parseDouble(bil2);
         double hasil = bilangan1 + bilangan2;
