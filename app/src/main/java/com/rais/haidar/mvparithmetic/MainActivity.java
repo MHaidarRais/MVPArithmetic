@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity implements LoginView {
         // Mengubah EditText menjadi String
 // ah yang bener ~~
         String Bilangan1 = EdtBil1.getText().toString();
+        // mengubah EditText menjadi String 2
         String Bilangan2 = EdtBil2.getText().toString();
 
         switch (view.getId()) {
